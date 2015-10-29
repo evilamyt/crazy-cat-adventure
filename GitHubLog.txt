@@ -1,0 +1,179 @@
+2015-10-07 16:14:26.6908|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 24 at GitClient.cs:496 after blocking 0.0640459s
+2015-10-07 16:14:08.5441|INFO|thread: 1|CommandLineHandler|Parsing command line arguments:http://github-windows-dev.s3.amazonaws.com/staff/GitHub.application
+2015-10-07 16:14:08.5660|INFO|thread: 1|CommandLineHandler|Unprocessed args: http://github-windows-dev.s3.amazonaws.com/staff/GitHub.application
+2015-10-07 16:14:08.5781|WARN|thread: 1|CommandHandler|Exception occurred while opening path 'http://github-windows-dev.s3.amazonaws.com/staff/GitHub.application'
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at GitHub.Helpers.CommandHandler.SelectRepositoryByPath(String path)
+2015-10-07 16:14:08.5971|INFO|thread: 1|AppInstance|Starting up as master instance of GitHub Desktop
+2015-10-07 16:14:08.6250|INFO|thread: 5|StartupLogging| #########################################
+2015-10-07 16:14:08.6250|INFO|thread: 5|StartupLogging| GitHub Desktop started. VERSION: 3.0.6.1
+2015-10-07 16:14:08.6250|INFO|thread: 5|StartupLogging| Build version: 9299b5f7a355e4e52a033934faf5771d56501deb
+2015-10-07 16:14:08.6250|INFO|thread: 5|StartupLogging| ***************************************
+2015-10-07 16:14:08.6250|INFO|thread: 5|StartupLogging| ***                                 ***
+2015-10-07 16:14:08.6250|INFO|thread: 5|StartupLogging| ***                                 ***
+2015-10-07 16:14:08.6250|INFO|thread: 5|StartupLogging| ***        Have a problem?          ***
+2015-10-07 16:14:08.6250|INFO|thread: 5|StartupLogging| ***    Email support@github.com     ***
+2015-10-07 16:14:08.6250|INFO|thread: 5|StartupLogging| ***      and include this file      ***
+2015-10-07 16:14:08.6250|INFO|thread: 5|StartupLogging| ***                                 ***
+2015-10-07 16:14:08.6250|INFO|thread: 5|StartupLogging| ***                                 ***
+2015-10-07 16:14:08.6250|INFO|thread: 5|StartupLogging| ***************************************
+2015-10-07 16:14:08.6250|INFO|thread: 5|StartupLogging| OS Version: Windows NT 6.3.9600.0 amd64
+2015-10-07 16:14:08.6250|INFO|thread: 5|StartupLogging| CLR Version: 4.0.30319.42000
+2015-10-07 16:14:08.6250|INFO|thread: 5|StartupLogging| Current culture: en-US
+2015-10-07 16:14:08.6250|INFO|thread: 5|StartupLogging| Environment.CurrentDirectory: C:\Users\Amy Truong\AppData\Local\Apps\2.0\4JGBK8ED.TT1\POJAK20C.R34\gith..tion_317444273a93ac29_0003.0000_d9d33a0ff7cb731d
+2015-10-07 16:14:08.6250|INFO|thread: 5|StartupLogging| Environment.ExpandEnvironmentVariables("CWD"): 
+2015-10-07 16:14:08.6250|INFO|thread: 5|StartupLogging| Environment.ExpandEnvironmentVariables("CD"): 
+2015-10-07 16:14:08.6250|INFO|thread: 5|StartupLogging| currentProcess.StartInfo.WorkingDirectory: 
+2015-10-07 16:14:08.6250|INFO|thread: 5|StartupLogging| Terminal Services session: no
+2015-10-07 16:14:08.6250|INFO|thread: 5|StartupLogging| Location: C:\Users\Amy Truong\AppData\Local\Apps\2.0\4JGBK8ED.TT1\POJAK20C.R34\gith..tion_317444273a93ac29_0003.0000_d9d33a0ff7cb731d\GitHub.exe
+2015-10-07 16:14:08.6610|INFO|thread: 5|StartupLogging| ActivationUri: https://github-windows.s3.amazonaws.com/GitHub.application
+2015-10-07 16:14:08.6610|INFO|thread: 5|StartupLogging| Environment CommandLine: C:\Users\Amy Truong\AppData\Local\Apps\2.0\4JGBK8ED.TT1\POJAK20C.R34\gith..tion_317444273a93ac29_0003.0000_d9d33a0ff7cb731d\GitHub.exe
+2015-10-07 16:14:08.7090|INFO|thread: 5|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 16:14:08.7090|INFO|thread: 5|GitEnvironment|PATH is C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\Amy Truong\AppData\Local\Apps\2.0\4JGBK8ED.TT1\POJAK20C.R34\gith..tion_317444273a93ac29_0003.0000_d9d33a0ff7cb731d;C:\Users\Amy Truong\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Users\Amy Truong\.dnx\bin;C:\Users\Amy Truong\AppData\Local\atom\bin
+2015-10-07 16:14:08.7090|INFO|thread: 5|StartupLogging| =====================================================
+2015-10-07 16:14:08.7090|INFO|thread: 5|StartupLogging|  DIAGNOSTICS                                        |
+2015-10-07 16:14:08.7090|INFO|thread: 5|StartupLogging| =====================================================
+2015-10-07 16:14:08.7120|INFO|thread: 5|StartupLogging| Git Extracted: 'True:
+2015-10-07 16:14:08.7120|INFO|thread: 5|StartupLogging| PortableGit Dir Exists: 'C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad'
+2015-10-07 16:14:08.7120|INFO|thread: 5|StartupLogging| Git Executable Exists: 'C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe'
+2015-10-07 16:14:08.7120|INFO|thread: 1|HardwareRenderingHelper|Your video card appears to support hardware rendering. If this isn't the case and you see glitches
+2015-10-07 16:14:08.7120|INFO|thread: 1|HardwareRenderingHelper|set the GH_FORCE_SW_RENDERING environment variable to 1
+2015-10-07 16:14:08.7120|ERROR|thread: 5|StartupLogging| MISSING PATH!!: 'C:\Windows\system32\config\systemprofile\.dnx\bin'
+2015-10-07 16:14:08.7120|INFO|thread: 5|StartupLogging| ----------------------------------------------------
+2015-10-07 16:14:08.7120|INFO|thread: 5|StartupLogging| PATH: C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Users\Amy Truong\.dnx\bin;C:\Users\Amy Truong\AppData\Local\atom\bin
+2015-10-07 16:14:08.7391|INFO|thread: 1|App|Checking whether application is network deployed: True
+2015-10-07 16:14:08.7391|INFO|thread: 1|App|Shortcut C:\Users\Amy Truong\AppData\Local\GitHub\GitHub.appref-ms exists? True
+2015-10-07 16:14:08.7571|INFO|thread: 5|StartupLogger|Proxy information: (None)
+2015-10-07 16:14:08.7571|INFO|thread: 5|StartupLogger|Couldn't fetch creds for proxy
+2015-10-07 16:14:08.8100|INFO|thread: 1|ClickOnceAppIconHelper|Updating registry with our application icon 'C:\Users\Amy Truong\AppData\Local\Apps\2.0\4JGBK8ED.TT1\POJAK20C.R34\gith..tion_317444273a93ac29_0003.0000_d9d33a0ff7cb731d\Images\App.ico'
+2015-10-07 16:14:10.1602|INFO|thread: 5|UrlProtocolInstaller|Registered UrlAppLauncher protocol: "C:\Users\Amy Truong\AppData\Local\Apps\2.0\4JGBK8ED.TT1\POJAK20C.R34\gith..tion_317444273a93ac29_0003.0000_d9d33a0ff7cb731d\GitHub.exe" -u="%1"
+2015-10-07 16:14:10.4472|INFO|thread: 5|PortablePackageManager|Already extracted PortableGit.7z, returning 100%
+2015-10-07 16:14:10.6223|INFO|thread: 5|MsysGitCertificateInstaller|Found certificate cache, loaded 162 certificates
+2015-10-07 16:14:10.6223|INFO|thread: 5|MsysGitCertificateInstaller|Created certificate bundle with 168 entries
+2015-10-07 16:14:10.7442|INFO|thread: 5|StartupSequence|Took 330ms to Update certificate bundle from system store
+2015-10-07 16:14:12.4410|INFO|thread: 1|CommandLineToolsExtractor|Portable Git and Git LFS are already extracted
+2015-10-07 16:14:12.4464|INFO|thread: 1|GitClient|Installing git lfs filters
+2015-10-07 16:14:12.4464|INFO|thread: 1|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 16:14:12.4464|INFO|thread: 1|GitEnvironment|PATH is C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\Amy Truong\AppData\Local\Apps\2.0\4JGBK8ED.TT1\POJAK20C.R34\gith..tion_317444273a93ac29_0003.0000_d9d33a0ff7cb731d;C:\Users\Amy Truong\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 16:14:12.4694|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'lfs init --force ', Working Directory: C:\Users\Amy Truong\AppData\Local\Temp\
+2015-10-07 16:14:12.4784|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.ShellViewModel.
+2015-10-07 16:14:12.4784|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.DashboardViewModel.
+2015-10-07 16:14:13.1746|INFO|thread: 8|GitHubShellSetupHelper|Wrote GitHubShell setup script here 'C:\Users\Amy Truong\AppData\Local\GitHub\shell.ps1'
+2015-10-07 16:14:13.9402|INFO|thread: 1|PortablePackageManager|Already extracted gitignore.7z, returning 100%
+2015-10-07 16:14:14.7094|WARN|thread: 5|LoginCache|Could not get login for host 'GitHub.HostAddress'
+System.Collections.Generic.KeyNotFoundException: The given key 'login:null' was not present in the cache.
+2015-10-07 16:14:15.5532|INFO|thread: 1|RepositoryHost|Log in from cache for login 'evilamyt' to host 'https://api.github.com/' SUCCEEDED
+2015-10-07 16:14:15.5844|INFO|thread:25|ApplicationShellInitializer|Running post login tasks. ~/.gitconfig is set up with user.name = 'Amy Truong' and user.email = 'amytruong@github.com'
+2015-10-07 16:14:15.6000|INFO|thread: 5|SSHProcessManager|Starting ssh-agent.exe
+2015-10-07 16:14:15.6313|INFO|thread: 5|PortablePackageManager|Already extracted lfs-amd64.7z, returning 100%
+2015-10-07 16:14:15.7250|INFO|thread:26|GitEnvironment|Process set up with this SSH Agent info: 740:/tmp/ssh-1ztwraaWd2ot/agent.4820
+2015-10-07 16:14:15.7250|INFO|thread:26|GitEnvironment|PATH is C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\Amy Truong\AppData\Local\Apps\2.0\4JGBK8ED.TT1\POJAK20C.R34\gith..tion_317444273a93ac29_0003.0000_d9d33a0ff7cb731d;C:\Users\Amy Truong\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 16:14:15.7496|INFO|thread:26|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\ssh-add.exe', Args: '"C:\Users\Amy Truong\.ssh\github_rsa"', Working Directory: C:\Users\Amy Truong\AppData\Local\Temp\
+2015-10-07 16:14:15.8776|INFO|thread: 5|SSHKeyHelper|Found existing SSH key pair
+2015-10-07 16:14:16.0706|INFO|thread:14|DashboardViewModel|Selected repository 'evilamyt/fearless-octo-kitty'
+2015-10-07 16:14:16.1396|INFO|thread:14|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 1 at GitClient.cs:627
+2015-10-07 16:14:16.1396|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 1 at GitClient.cs:627 after waiting 0.0047882s
+2015-10-07 16:14:16.1486|INFO|thread:14|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 2 at GitClient.cs:605
+2015-10-07 16:14:16.2667|INFO|thread:13|AsyncReaderWriterLock|Released concurrent scheduler for operation: 1 at GitClient.cs:627 after blocking 0.1229978s
+2015-10-07 16:14:16.2667|INFO|thread: 5|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 2 at GitClient.cs:605 after waiting 0.1207831s
+2015-10-07 16:14:17.4967|INFO|thread: 5|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 3 at GitClient.cs:622
+2015-10-07 16:14:17.6945|INFO|thread: 5|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 4 at GitClient.cs:222
+2015-10-07 16:14:17.6945|INFO|thread: 5|DashboardViewModel|Took 1572ms to Create RepositoryViewModel for location C:\GitHub Stuff\fearless-octo-kitty
+2015-10-07 16:14:17.6945|INFO|thread: 5|AsyncReaderWriterLock|Released exclusive scheduler for operation: 2 at GitClient.cs:605 after blocking 1.4273006s
+2015-10-07 16:14:17.6945|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 3 at GitClient.cs:622 after waiting 0.1983701s
+2015-10-07 16:14:17.6945|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 4 at GitClient.cs:222 after waiting 0.004981s
+2015-10-07 16:14:17.7414|INFO|thread: 4|GitClient|Loading commits for repo: C:\GitHub Stuff\fearless-octo-kitty
+2015-10-07 16:14:17.7763|INFO|thread:16|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 5 at RepositoryViewModel.cs:325
+2015-10-07 16:14:17.7763|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 3 at GitClient.cs:622 after blocking 0.0932249s
+2015-10-07 16:14:17.8045|INFO|thread: 5|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 5 at RepositoryViewModel.cs:325 after waiting 0.0218738s
+2015-10-07 16:14:17.8977|INFO|thread: 4|ConcurrentRepositoryConnection|Loaded '5' commits for repo: C:\GitHub Stuff\fearless-octo-kitty\.
+2015-10-07 16:14:17.9446|INFO|thread: 4|AsyncReaderWriterLock|Released concurrent scheduler for operation: 4 at GitClient.cs:222 after blocking 0.2462093s
+2015-10-07 16:14:18.0073|INFO|thread: 5|AsyncReaderWriterLock|Released concurrent scheduler for operation: 5 at RepositoryViewModel.cs:325 after blocking 0.2028083s
+2015-10-07 16:14:18.2390|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 6 at GitClient.cs:199
+2015-10-07 16:14:18.2390|INFO|thread: 5|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 6 at GitClient.cs:199 after waiting 0.0003816s
+2015-10-07 16:14:18.2390|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 7 at RepositoryModel.cs:596
+2015-10-07 16:14:18.2390|INFO|thread: 8|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 7 at RepositoryModel.cs:596 after waiting 0.0004645s
+2015-10-07 16:14:18.2858|INFO|thread:13|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 8 at RepositoryModel.cs:596
+2015-10-07 16:14:18.3020|INFO|thread:16|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 9 at GitClient.cs:288
+2015-10-07 16:14:18.3327|INFO|thread:13|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 8 at RepositoryModel.cs:596 after waiting 0.0421991s
+2015-10-07 16:14:18.3327|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 7 at RepositoryModel.cs:596 after blocking 0.0963496s
+2015-10-07 16:14:18.3327|INFO|thread: 8|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 9 at GitClient.cs:288 after waiting 0.0359287s
+2015-10-07 16:14:18.3494|INFO|thread:13|AsyncReaderWriterLock|Released concurrent scheduler for operation: 8 at RepositoryModel.cs:596 after blocking 0.0111168s
+2015-10-07 16:14:18.3639|INFO|thread:16|GitEnvironment|Process set up with this SSH Agent info: 740:/tmp/ssh-1ztwraaWd2ot/agent.4820
+2015-10-07 16:14:18.3639|INFO|thread:16|GitEnvironment|PATH is C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\Amy Truong\AppData\Local\Apps\2.0\4JGBK8ED.TT1\POJAK20C.R34\gith..tion_317444273a93ac29_0003.0000_d9d33a0ff7cb731d;C:\Users\Amy Truong\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 16:14:18.3639|INFO|thread:16|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\GitHub Stuff\fearless-octo-kitty\
+2015-10-07 16:14:18.3639|INFO|thread: 4|AsyncReaderWriterLock|Released concurrent scheduler for operation: 6 at GitClient.cs:199 after blocking 0.1262938s
+2015-10-07 16:14:18.4129|INFO|thread: 4|ConcurrentRepositoryConnection|Took 29ms to git status
+2015-10-07 16:14:18.4129|INFO|thread: 4|ConcurrentRepositoryConnection|Took 31ms to git status and parse output
+2015-10-07 16:14:18.4289|INFO|thread: 4|NewCommitViewModel|Took 123ms to load files for C:\GitHub Stuff\fearless-octo-kitty
+2015-10-07 16:14:18.4289|INFO|thread: 4|AsyncReaderWriterLock|Released concurrent scheduler for operation: 9 at GitClient.cs:288 after blocking 0.0864602s
+2015-10-07 16:14:18.6522|INFO|thread: 4|BackgroundFetcher|Got a refresh period for C:\GitHub Stuff\fearless-octo-kitty\.git of 300 seconds
+2015-10-07 16:14:18.6522|INFO|thread: 4|BackgroundFetcher|Added a delay for C:\GitHub Stuff\fearless-octo-kitty\.git of 20666 milliseconds
+2015-10-07 16:14:18.9441|INFO|thread:16|SoftwareUpdateViewModel|Checking for new version
+2015-10-07 16:14:19.0173|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 10 at GitClient.cs:610
+2015-10-07 16:14:19.0173|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 10 at GitClient.cs:610 after waiting 0.0042129s
+2015-10-07 16:14:19.0271|INFO|thread:13|AsyncReaderWriterLock|Released concurrent scheduler for operation: 10 at GitClient.cs:610 after blocking 0.0048492s
+2015-10-07 16:14:20.0368|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 11 at BranchesViewModel.cs:543
+2015-10-07 16:14:20.0368|INFO|thread:13|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 11 at BranchesViewModel.cs:543 after waiting 0.0002704s
+2015-10-07 16:14:20.0403|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 12 at RepositoryViewModel.cs:325
+2015-10-07 16:14:20.0403|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 12 at RepositoryViewModel.cs:325 after waiting 0.000101s
+2015-10-07 16:14:20.0559|INFO|thread: 8|AsyncReaderWriterLock|Released concurrent scheduler for operation: 11 at BranchesViewModel.cs:543 after blocking 0.0293418s
+2015-10-07 16:14:20.1519|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 13 at GitClient.cs:622
+2015-10-07 16:14:20.1519|INFO|thread: 8|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 13 at GitClient.cs:622 after waiting 0.0001252s
+2015-10-07 16:14:20.1519|INFO|thread:13|AsyncReaderWriterLock|Released concurrent scheduler for operation: 13 at GitClient.cs:622 after blocking 0.0099815s
+2015-10-07 16:14:20.1789|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 12 at RepositoryViewModel.cs:325 after blocking 0.1387144s
+2015-10-07 16:14:20.1839|INFO|thread: 1|NewCommitViewModel|Took 1755ms to render file list for C:\GitHub Stuff\fearless-octo-kitty
+2015-10-07 16:14:20.1839|INFO|thread: 1|NewPullRequestViewModel|No matching pull request found, clearing selection...
+2015-10-07 16:14:20.2039|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 14 at RepositoryViewModel.cs:325
+2015-10-07 16:14:20.2039|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 14 at RepositoryViewModel.cs:325 after waiting 8.42E-05s
+2015-10-07 16:14:20.2039|INFO|thread: 1|AsyncReaderWriterLock|Released concurrent scheduler for operation: 14 at RepositoryViewModel.cs:325 after blocking 5.72E-05s
+2015-10-07 16:14:20.2039|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 15 at RepositoryViewModel.cs:325
+2015-10-07 16:14:20.2039|INFO|thread:13|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 15 at RepositoryViewModel.cs:325 after waiting 2.28E-05s
+2015-10-07 16:14:20.2339|INFO|thread: 4|AsyncReaderWriterLock|Released concurrent scheduler for operation: 15 at RepositoryViewModel.cs:325 after blocking 0.0287302s
+2015-10-07 16:14:21.4371|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 16 at GitClient.cs:403
+2015-10-07 16:14:21.4371|INFO|thread: 8|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 16 at GitClient.cs:403 after waiting 8.84E-05s
+2015-10-07 16:14:21.4551|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 17 at GitClient.cs:403
+2015-10-07 16:14:21.4551|INFO|thread:13|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 17 at GitClient.cs:403 after waiting 0.0006176s
+2015-10-07 16:14:21.4641|INFO|thread:16|GitEnvironment|Process set up with this SSH Agent info: 740:/tmp/ssh-1ztwraaWd2ot/agent.4820
+2015-10-07 16:14:21.4641|INFO|thread:16|GitEnvironment|PATH is C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\Amy Truong\AppData\Local\Apps\2.0\4JGBK8ED.TT1\POJAK20C.R34\gith..tion_317444273a93ac29_0003.0000_d9d33a0ff7cb731d;C:\Users\Amy Truong\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 16:14:21.4641|INFO|thread:16|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --name-status 8f44018c915f5e5a777c11760f5805260906dcca ', Working Directory: C:\GitHub Stuff\fearless-octo-kitty\
+2015-10-07 16:14:21.4641|INFO|thread: 4|GitEnvironment|Process set up with this SSH Agent info: 740:/tmp/ssh-1ztwraaWd2ot/agent.4820
+2015-10-07 16:14:21.4641|INFO|thread: 4|GitEnvironment|PATH is C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\Amy Truong\AppData\Local\Apps\2.0\4JGBK8ED.TT1\POJAK20C.R34\gith..tion_317444273a93ac29_0003.0000_d9d33a0ff7cb731d;C:\Users\Amy Truong\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 16:14:21.4641|INFO|thread: 4|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --name-status 8f44018c915f5e5a777c11760f5805260906dcca ', Working Directory: C:\GitHub Stuff\fearless-octo-kitty\
+2015-10-07 16:14:21.4641|INFO|thread:16|GitEnvironment|Process set up with this SSH Agent info: 740:/tmp/ssh-1ztwraaWd2ot/agent.4820
+2015-10-07 16:14:21.4641|INFO|thread:16|GitEnvironment|PATH is C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\Amy Truong\AppData\Local\Apps\2.0\4JGBK8ED.TT1\POJAK20C.R34\gith..tion_317444273a93ac29_0003.0000_d9d33a0ff7cb731d;C:\Users\Amy Truong\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 16:14:21.4641|INFO|thread:16|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --numstat 8f44018c915f5e5a777c11760f5805260906dcca ', Working Directory: C:\GitHub Stuff\fearless-octo-kitty\
+2015-10-07 16:14:21.4641|INFO|thread: 4|GitEnvironment|Process set up with this SSH Agent info: 740:/tmp/ssh-1ztwraaWd2ot/agent.4820
+2015-10-07 16:14:21.4641|INFO|thread: 4|GitEnvironment|PATH is C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\Amy Truong\AppData\Local\Apps\2.0\4JGBK8ED.TT1\POJAK20C.R34\gith..tion_317444273a93ac29_0003.0000_d9d33a0ff7cb731d;C:\Users\Amy Truong\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 16:14:21.4641|INFO|thread: 4|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Amy Truong\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --numstat 8f44018c915f5e5a777c11760f5805260906dcca ', Working Directory: C:\GitHub Stuff\fearless-octo-kitty\
+2015-10-07 16:14:21.8111|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 18 at ICommittedFileForklift.cs:59
+2015-10-07 16:14:21.9051|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 19 at ICommittedFileForklift.cs:59
+2015-10-07 16:14:22.0561|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 20 at ICommittedFileForklift.cs:59
+2015-10-07 16:14:22.1702|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 21 at ICommittedFileForklift.cs:59
+2015-10-07 16:14:22.2736|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 22 at ICommittedFileForklift.cs:59
+2015-10-07 16:14:22.2872|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 23 at ICommittedFileForklift.cs:59
+2015-10-07 16:14:23.1062|INFO|thread: 7|CrossProcessMessageBus|Another instance started and signaled us.
+2015-10-07 16:14:23.1062|INFO|thread: 7|CommandLineHandler|Another app instance has asked us to clone this repo: 'https://github.com/evilamyt/fearless-octo-kitty.wiki'
+2015-10-07 16:14:23.1062|INFO|thread: 5|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 18 at ICommittedFileForklift.cs:59 after waiting 1.2982782s
+2015-10-07 16:14:24.0193|INFO|thread: 5|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 19 at ICommittedFileForklift.cs:59 after waiting 2.0949457s
+2015-10-07 16:14:24.0193|INFO|thread:30|AsyncReaderWriterLock|Released concurrent scheduler for operation: 18 at ICommittedFileForklift.cs:59 after blocking 0.9102828s
+2015-10-07 16:14:24.0193|INFO|thread:30|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 20 at ICommittedFileForklift.cs:59 after waiting 1.9650664s
+2015-10-07 16:14:24.9375|INFO|thread:31|AsyncReaderWriterLock|Released concurrent scheduler for operation: 19 at ICommittedFileForklift.cs:59 after blocking 0.9181795s
+2015-10-07 16:14:24.9375|INFO|thread: 5|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 21 at ICommittedFileForklift.cs:59 after waiting 2.7430988s
+2015-10-07 16:14:25.0526|INFO|thread:31|AsyncReaderWriterLock|Released concurrent scheduler for operation: 20 at ICommittedFileForklift.cs:59 after blocking 1.0313326s
+2015-10-07 16:14:25.0526|INFO|thread:30|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 22 at ICommittedFileForklift.cs:59 after waiting 2.7787105s
+2015-10-07 16:14:25.0715|INFO|thread:31|AsyncReaderWriterLock|Released concurrent scheduler for operation: 21 at ICommittedFileForklift.cs:59 after blocking 0.1336203s
+2015-10-07 16:14:25.0715|INFO|thread: 5|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 23 at ICommittedFileForklift.cs:59 after waiting 2.7782292s
+2015-10-07 16:14:25.0715|INFO|thread:31|AsyncReaderWriterLock|Released concurrent scheduler for operation: 22 at ICommittedFileForklift.cs:59 after blocking 0.0273599s
+2015-10-07 16:14:25.1265|INFO|thread:31|AsyncReaderWriterLock|Released concurrent scheduler for operation: 23 at ICommittedFileForklift.cs:59 after blocking 0.0549339s
+2015-10-07 16:14:25.1935|INFO|thread: 5|AsyncReaderWriterLock|Released concurrent scheduler for operation: 16 at GitClient.cs:403 after blocking 3.7561738s
+2015-10-07 16:14:25.1935|INFO|thread:30|AsyncReaderWriterLock|Released concurrent scheduler for operation: 17 at GitClient.cs:403 after blocking 3.7378771s
+2015-10-07 16:14:25.5227|WARN|thread:33|StandardUserErrors|Showing user error Not Found
+2015-10-07 16:14:26.6109|INFO|thread: 1|SelectedCommitViewModel|Took 5189ms to load files for commit 8f44018 in repo C:\GitHub Stuff\fearless-octo-kitty
+2015-10-07 16:14:26.6109|INFO|thread: 1|SelectedCommitViewModel|Took 5158ms to load files for commit 8f44018 in repo C:\GitHub Stuff\fearless-octo-kitty
+2015-10-07 16:14:26.6258|INFO|thread:16|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 25 at GitClient.cs:496
+2015-10-07 16:14:26.6258|INFO|thread:35|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 24 at GitClient.cs:496
+2015-10-07 16:14:26.6258|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 24 at GitClient.cs:496 after waiting 0.0010021s
+2015-10-07 16:14:26.6258|INFO|thread:35|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 25 at GitClient.cs:496 after waiting 0.0010272s
+2015-10-07 16:14:26.6908|INFO|thread:35|AsyncReaderWriterLock|Released concurrent scheduler for operation: 25 at GitClient.cs:496 after blocking 0.0640161s
